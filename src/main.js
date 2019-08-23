@@ -11,6 +11,6 @@ Vue.prototype.bus = new Vue()
 
 new Vue({
   router,
-  store,
+  store,  
   render: h => h(App)
 }).$mount('#app')
